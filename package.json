@@ -2,9 +2,9 @@
   "name": "web-speech-ai",
   "version": "1.0.0",
   "description": "Simple AI Chat Bot Demo with Web Speech API",
-  "main": "index.js",
+  "main": "weather.js",
   "scripts": {
-    "start": "nf start",
+    "start": "node weather",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tomomi Imura",
