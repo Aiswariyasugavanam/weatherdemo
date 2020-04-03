@@ -12,8 +12,8 @@ app.post('/weather',function(req,res){
     console.log("Received");
     if(!req.body) return res.sendStatus(400)
     res.setHeader('Content-Type','application/json')
-    //var city = req.body.queryResult.parameters.geocity;
-    var city = req.body.geocity
+    var city = req.body.queryResult.parameters.geocity;
+    //var city = req.body.geocity
     console.log(city)
     var w = getWeather(city)
     var response = " "
